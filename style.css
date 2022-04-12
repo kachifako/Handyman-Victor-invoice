@@ -107,4 +107,8 @@ button:hover{
         height: auto;
        
     }
+    
+    table{
+        width: 95%;
+        margin: auto;
 }
