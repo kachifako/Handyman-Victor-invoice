@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Handyman Victor Invoice</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+
+    <body>
+
+        <div class= "container"><!--container begins-->
+            <header>
+                <div class="about">
+                <h3> Handyman Victor</h3>
+
+                    London, England.
+                    <br>
+                    
+                    <a class="contact-details" href="tel:+44 7438434530"><img width="20px;"  height= "20px;" src="./images/download.jfif" alt=""> +44 7438434530</a> 
+                    
+                    <a class="contact-details" href="http://www.instagram.com/handy_vic/"> <img width="20px;"  height= "20px;" src="./images/th.jfif" alt="">  @handy_vic</a> 
+                </div>
+
+                <!--handyman victor logo-->
+                <div class="logo">
+                    <img style="width:150px; height:150px; " src="./images/2a778a7e4ecf485f8d3b7b6751298e10.png" alt="">
+                </div>
+            </header>
+
+
+            <hr style="background-color:rgb(212, 206, 238) ;">
+            <br>
+
+
+
+
+            <div class="inv-no">
+                <label>INV NO:</label> 
+                <textarea > </textarea>                        
+
+            </div>
+
+
+            <main>
+
+
+                    <table class="table-1" > <!--first table-->
+
+                        
+                            
+                        <tr class="head-row">
+                            <th id="bill-to">Bill To</th>
+                            <th id="address">Address</th>
+                            <th> Date</th>
+                        </tr>
+                    
+
+                        <td> <textarea class="table-text-1"> </textarea></td>
+                        <td> <textarea class="table-text-1"> </textarea></td>
+                        <td> <textarea class="table-text-1"> </textarea></td>
+                    </table>
+
+
+            
+
+                        <table class="table-2" ><!--second table-->
+                            <tr class="head-row">
+                                <th>Due Date</th>
+                                <th>Description</th>
+                                <th>Hours</th>
+                                <th>Rate</th>
+                                <th>Amount</th>
+                            </tr>
+                            
+                            <tr>
+
+                                <td > <textarea class="table-text-2"> </textarea></td>
+                                <td  id="description"> <textarea class="table-text-2"> </textarea></td>
+                                <td > <textarea class="table-text-2"> </textarea></td>
+                                <td > <textarea class="table-text-2"> </textarea></td>
+                                <td > <textarea class="table-text-2"> </textarea></td>
+
+                            </tr>
+                    
+                </table>
+
+            </main>
+
+
+                    <div class="balance-due"> <!--balance due-->
+                        
+                             Balance Due:
+                              <textarea id="balance" > </textarea>
+                        
+                    </div>
+                    
+
+
+
+
+
+                    <button onclick="printFunction()">Print/Save</button>
+
+        
+
+        
+        </div>        <!--container ends-->                
+
+
+
+                            
+
+</html>

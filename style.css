@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200&display=swap');
+
+
+.container {
+    margin: auto;
+    margin-bottom: 3%;
+    width: 796.8px;
+    height: 1123.2px;
+    box-shadow: 1px 2px 4px rgb(158, 156, 168);
+    background-color: rgb(242, 245, 248);
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(165, 165, 218);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(158, 156, 168);
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.logo {
+    padding: 2% ;
+    
+}
+
+
+.about {
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact-details {
+    display: flex;
+}
+
+
+.inv-no{
+    display: flex;
+    margin: 2% 2.5% 2% 67%;
+}
+
+
+
+.table-1{
+    width: 95%;
+    margin: auto;
+    
+}
+
+#bill-to{
+   width: 33%;
+}
+
+#address{
+    width:50%;
+}
+
+
+.table-2{
+    width: 95%;
+    margin: auto;
+    
+}
+
+#description{
+    width: 45%;
+}
+
+
+th{
+    background-color: rgb(95, 94, 157);
+    color: rgb(189, 189, 224);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+textarea{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: rgb(92, 92, 139);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: rgb(236, 236, 245);
+    
+}
+
+.table-text-1{
+    height: 70px;
+}
+
+.table-text-2{
+    height: 450px;
+}
+
+
+.balance-due{
+    display: flex;
+    align-content: space-around;
+    margin: 3% 2.5% 3% 70.5%; 
+    font-family: 'Poppins', sans-serif;
+    color: rgb(70, 69, 158);
+}
+
+
+#balance{
+    width: 60%;
+}
+
+
+button{
+    background-color: rgb(195, 24, 24);
+    color:blanchedalmond;
+    
+    margin: 0 39% 3% 43%;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    padding: 1%;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgb(158, 156, 168);
+    
+}
+
+
+button:hover{
+    width: 15.5%;
+    font-size: larger;
+    box-shadow: inset  1px 2px 4px rgb(92, 91, 95);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) { 
+
+
+   
+
+    *{
+        
+        font-size: small;
+      
+    }
+
+
+
+
+    .container {
+        margin: auto;
+        width: 100%;
+        height: auto;
+       
+    }
+
+
+    .table-text-1{
+        height: 90%;
+    }
+    
+    .table-text-2{
+        height: 350px;
+    }
+
+
+
+    button{
+       
+        font-size: 85%;
+        padding: 1% 1% 1% 1%;
+
+    }
+
+
+    
+
+}
