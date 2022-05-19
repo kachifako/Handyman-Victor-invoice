@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     color: rgb(165, 165, 218);
+    padding: 2%;
 }
 
 
@@ -32,13 +33,14 @@ a:hover{
 
 
 .logo {
-    padding: 2% ;
-    
+
+    width:150px; 
+    height:150px;
 }
 
 
 .about {
-    padding: 3%;
+    margin-right: 5%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -165,7 +167,16 @@ button:hover{
       
     }
 
+    header{
+        margin-right: -12%;
+    }
 
+
+    .logo{
+        width: 70%;
+        height: auto;
+
+    }
 
 
     .container {
